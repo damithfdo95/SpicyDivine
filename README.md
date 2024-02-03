@@ -1,4 +1,4 @@
-# MERN Ecommerce Application
+# MERN EC-site Application
 
 <code>Currently under construction for additional features</code>
 
