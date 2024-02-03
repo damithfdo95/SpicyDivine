@@ -50,21 +50,7 @@ const CartCard = (props) => {
                     <RemoveCircleIcon fontSize='medium'/>
                 </IconButton>
             </div>
-            <div className="product size">
-                <Box sx={{ minWidth: 80} }>
-                    <FormControl fullWidth size="small">
-                        <InputLabel>Size</InputLabel>
-                        <Select
-                        value={size}
-                        label="size"
-                        onChange={handleSizeChange}
-                        >
-                        {props.item.size.map((size) => <MenuItem value={size}>{size}</MenuItem>)}
-                        </Select>
-                    </FormControl>
-                </Box>
-            </div>
-            <div className="cart__item__price">${props.item.price}</div>
+            <div className="cart__item__price">¥{props.item.price}</div>
             <div className="remove__item__icon">
                 <IconButton>
                     <HighlightOffIcon onClick={handelRemoveItem}/>

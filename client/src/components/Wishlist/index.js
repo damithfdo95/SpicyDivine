@@ -9,10 +9,10 @@ const Wishlist = () => {
     return ( 
         <div className="wishlist">
             <div className="wishlist__container">
-                <div className="wishlist__header"><h2>Your Wishlist</h2></div>
+                <div className="wishlist__header"><h2>Your Plate</h2></div>
                 <div className="wishlist__items__container">
                     <div className="wishlist__items">   
-                    {wishItems.items.length>0? wishItems.items.map((item) => <WishCard key={item._id} item={item}/>) : <>No items</>}
+                    {wishItems.items.length>0? wishItems.items.map((item) => <WishCard key={item._id} item={item}/>) : <>No Foods</>}
                     </div>
                 </div>
             </div>

@@ -2,14 +2,15 @@
 
 .landing__container {
     width: 100%;
-    min-height: 420px;
+    min-height: 850px;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    background-color: #ffe26e;
+    background-image: url("../../../src/asset/img/foodiesfeed.com_exotic-spices.jpg");
+    background-size: cover;
     position: relative;
 }
 
@@ -42,10 +43,12 @@
 .landing__header__main {
     font-size: 4.0rem;
     font-weight: 800;
+    color: aliceblue;
 }
 
 .landing__header__discount {
-    font-size: 1.2rem;
+    font-size: 2rem;
+    color: aliceblue;
 }
 
 .landing__button {
@@ -56,22 +59,7 @@
 
 .landing__image__container {
     width: 50%;
-    height: ;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.landing__image {
-    height: auto;
-    width: auto;
-    top: 0%;
-    z-index: 10;
-}
-
-
-@media screen and (max-width: 850px) {
-    .landing__image__container{
-       display: none;
-    }
 }

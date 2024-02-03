@@ -3,7 +3,8 @@
 .footer__container {
     height: auto;
     width: 100%;
-    background-color: #FFE26E;
+    background-image: url("../../../src/asset/img/knife-2879330_1280.jpg");
+    background-size: cover;
     display: flex;
     flex-direction: column;
 }

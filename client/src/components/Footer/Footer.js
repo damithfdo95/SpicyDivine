@@ -3,10 +3,8 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import TelegramIcon from '@mui/icons-material/Telegram';
-import PinterestIcon from '@mui/icons-material/Pinterest';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Footer = () => {
     return ( 
@@ -38,13 +36,13 @@ const Footer = () => {
                         </div>
                         <ul className="footer__contacts">
                             <li className="footer__contact">
-                                <LocalPhoneIcon /> <span>+123 4567 890</span>
+                                <LocalPhoneIcon /> <span>+81 80 1651 3896</span>
                             </li>
                             <li className="footer__contact">
-                                <EmailIcon /> <span>shop@shema.com</span>
+                                <EmailIcon /> <span>spicydivine@gmail.com</span>
                             </li>
                             <li className="footer__contact">
-                                <LocationOnIcon /> <span>Addis Ababa, Ethiopia</span>
+                                <LocationOnIcon /> <span>Sendai, Japan</span>
                             </li>
                         </ul>
                     </div>
@@ -54,28 +52,20 @@ const Footer = () => {
                         </div>
                     <ul className="footer__social__links">
                             <li className="social__link">
-                                <TwitterIcon />
+                                <FacebookIcon />
+                            </li>
+                            <li className="social__link">
+                                <WhatsAppIcon />
                             </li>
                             <li className="social__link">
                                 <InstagramIcon />
-                            </li>
-                            <li className="social__link">
-                                <YouTubeIcon />
-                            </li>
-                            <li className="social__link">
-                                <TelegramIcon />
-                            </li>
-                            <li className="social__link">
-                                <PinterestIcon />
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div className="fotter__copyright__container">
                     <ul className='nav'>
-                        <li className="footer__copyright">©2022 Shema Ltd. |</li>
-                        <li className="footer__terms__condition"> | Terms & Condition |</li>
-                        <li className="footer__privacy__policy">| Privacy Policy</li>
+                        <li className="footer__copyright">Made with ❤ by Damith Fernando ©2024</li>
                     </ul>
                      </div>
             </div>

@@ -23,7 +23,7 @@ const Related = (props) => {
             <div className="related__products">
                 <div className="related__header__container">
                     <div className="related__header">
-                        <h2>Recommended Products</h2>
+                        <h2>Recommended Foods</h2>
                     </div>
                     <div className="related__header__line">
                             
